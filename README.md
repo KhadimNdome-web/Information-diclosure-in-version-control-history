@@ -15,5 +15,25 @@ After inspecting each file contained in the directory, i downloaded all the file
 
 `wget -r https://0a43004b04b325c6806ae96c00630034.web-security-academy.net/.git/`
 
+I then procedeed to use Git Gui by choosing to open an existing file repository, in this case the previously downloaded file `.git`, which showed the code:
+
+`deleted file mode 100644
+@@ -1 +0,0 @@
+-ADMIN_PASSWORD=env('ADMIN_PASSWORD')`
+
+This `-ADMIN_PASSWORD=env('ADMIN_PASSWORD')` can be intepreted as ``-ADMIN_PASSWORD=variable` and
+written in red indicates that the file has been recently modified.
+
+I chose then the option `Visualize Mater´s History` from the `Repository` window of Git, that showed me the hard-coded or included password of the old application written in red:
+
+`-ADMIN_PASSWORD=2dkmzbvabovv232i0tjj`
+
+And again, but this time in color green, the info about the file that has just been modified:
+
+`+ADMIN_PASSWORD=env('ADMIN_PASSWORD')`
+
+Assuming that the user didn´t change his/her password, I copied and pasted the password
+
+
 
 
