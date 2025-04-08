@@ -32,7 +32,7 @@ And again, but this time in color green, the info about the file that has just b
 
 `+ADMIN_PASSWORD=env('ADMIN_PASSWORD')`
 
-Assuming that the user didn´t change his/her password, I copied and pasted the password
+Assuming that the user didn´t change his/her password, I copied and pasted the password in the login page of the target website, after trying to guess with more attempts the name of the username, that resulted as being registered as `administrator`, thus making possible the login in the administrator´s account.
 
 
 
