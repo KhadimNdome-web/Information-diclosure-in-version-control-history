@@ -24,7 +24,7 @@ I then procedeed to use Git Gui by choosing to open an existing file repository,
 This `-ADMIN_PASSWORD=env('ADMIN_PASSWORD')` can be intepreted as ``-ADMIN_PASSWORD=variable` and
 written in red indicates that the file has been recently modified.
 
-I chose then the option `Visualize Mater´s History` from the `Repository` window of Git, that showed me the hard-coded or included password of the old application written in red:
+I chose then the option `Visualize Master´s History` from the `Repository` window of Git, that showed me the hard-coded or included password of the old application written in red:
 
 `-ADMIN_PASSWORD=2dkmzbvabovv232i0tjj`
 
